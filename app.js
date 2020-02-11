@@ -6,6 +6,7 @@
 // need to install ->> npm install body-parser
 //npm install ejs
 //npm install express-ejs-layouts
+//npm install --save mongodb
 
 const express = require('express');
 const bodyParser = require('body-parser'); // to slove the output "undefined"

@@ -19,7 +19,7 @@ module.exports = class Product {
         this.description = description;
     };
     save() {
-        this.id = Math.random().toString();
+        this.id = Math.random().toString();//generate random id 
         const p = path.join(path.dirname(process.mainModule.filename), 'data', 'product.json');
         fs.readFile(p, (err, fileContent) => {
             let products = [];
